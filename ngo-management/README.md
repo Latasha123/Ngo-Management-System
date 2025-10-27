@@ -1,0 +1,1 @@
+This project is a simplified NGO Management System. Update application.properties with your MySQL credentials and import as Maven project in Eclipse. Run com.example.ngo.NgoManagementApplication.

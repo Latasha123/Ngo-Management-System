@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Donation Success</title>
+</head>
+<body>
+    <h2>Thank you for your donation!</h2>
+    <p th:text="${response.message}"></p>
+    <a th:href="@{/}">Go Back Home</a>
+</body>
+</html>

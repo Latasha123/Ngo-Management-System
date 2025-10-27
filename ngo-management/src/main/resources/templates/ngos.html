@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>NGO List</title>
+</head>
+<body>
+    <h1>All NGOs</h1>
+
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NGO Name</th>
+                <th>Description</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="ngo : ${ngos}">
+                <td th:text="${ngo.id}"></td>
+                <td th:text="${ngo.name}"></td>
+                <td th:text="${ngo.description}"></td>
+                <td th:text="${ngo.address}"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <a th:href="@{/}">Back to Home</a>
+</body>
+</html>
