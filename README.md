@@ -5,3 +5,9 @@ NGO Management System is a comprehensive web-based platform built with Java Spri
 The system manages donors, volunteers, events, and fundraising campaigns efficiently, while providing automated email notifications for critical actions such as registrations, event updates, and donation acknowledgements.
 
 It’s designed for scalability and modularity, integrating seamlessly with relational databases and offering a secure, role-based access structure.
+
+## Tech stack
+- Java 17, Spring Boot
+- Maven
+- MYSQL
+- Thymeleaf for UI
