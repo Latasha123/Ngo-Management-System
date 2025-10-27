@@ -7,7 +7,7 @@ The system manages donors, volunteers, events, and fundraising campaigns efficie
 It’s designed for scalability and modularity, integrating seamlessly with relational databases and offering a secure, role-based access structure.
 
 ## Tech stack
-- Java 17, Spring Boot
+- Java 21, Spring Boot
 - Maven
 - MYSQL
 - Thymeleaf for UI
