@@ -1,4 +1,4 @@
-NGO Management System 
+<h1>NGO Management System</h1>
 
 NGO Management System is a comprehensive web-based platform built with Java Spring Boot to help non-governmental organizations (NGOs) streamline their operations and enhance transparency.
 
